@@ -14,17 +14,6 @@ reverse()
 
 // Using JS functions and an array of numbers, return positive if an element within the array is positive, negative if an element is negative, else zero
 
-function arr = [1,2,3,-4,5,-6];
-
-positive = 0,
-negative = 0,
-arr.forEach((item) => {
-    if (item === 0) {
-        positive++
-    }
-    else if (item <0 ){
-        // negative++
-        con
 
 
         function checkElements() {
@@ -38,16 +27,21 @@ arr.forEach((item) => {
                }
             });
            }
-    }
-
-})
-
-
-
-
-
-
+    
 
 
 
 // Given an array of objects, where each object represents an employee with an id, name, and salary property, write a function that returns a new array of employee objects sorted by their salary in ascending order.
+function sortEmployer(employees) {
+    return employees.sort((a, b) => a.salary - b.salary);
+   }
+   const employees = [
+    { firstid: 1, name: 'Nur', salary: 50000 },
+    { firstid: 2, name: 'Mia', salary: 60000 },
+    { firstid: 3, name: 'Zila', salary: 45000 }
+   ];
+   const EmployeesSalary = sortEmployer(employees);
+   console.log(EmployeesSalary);
+
+
+// Write a function that accepts an array of numbers and uses the forEach() method to console.log each number multiplied by 2.
