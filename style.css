@@ -1,0 +1,134 @@
+#h1{
+    display: flex;
+}
+
+#h2{
+    display: flex;
+    gap: 25%;
+    margin-left: 25%;
+}
+
+#head{
+    text-align: center;
+    background-color: green;
+}
+
+#p3{
+    width: 80%;
+    height: 10%;
+}
+
+#p1{
+    position: relative;
+}
+
+#p2{
+ position: absolute;
+ margin-left: 5%;
+ font-size: x-large;
+ font-weight: 600;
+}
+
+#d1{
+    display: flex;
+    gap: 10%;
+    
+}
+
+#i1{
+    width: 35%;
+    margin-left: 7%;
+}
+
+#d2{
+    display: flex;
+}
+
+#i2{
+    width: 20%;
+} 
+
+#I2{
+    display: flex;
+   /* height: 20%; */
+   /* gap: 2%; */
+}
+
+#show{
+    text-align: center;
+}
+
+#cloth{
+    display: flex;
+    gap: 5%;
+}
+#c1{
+    width: 75%;
+}
+
+#c2{
+    width: 80%;
+}
+
+#c4{
+    width: 40%;
+    margin-left: 30%;
+}
+
+#reach{
+    text-align: center;
+}
+
+#google{
+
+}
+
+#foot{
+    display: flex;
+    gap: 10%;
+    background-color: black;
+    color: white;
+}
+
+#f1{
+    list-style-type: none;
+}
+
+#I3{
+    display: flex;
+    gap: 10%;
+    margin-left: 10%;
+}
+
+#print{
+    text-align: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+#P5{
+    display: flex;
+    gap: 10%;
+}
+
+
+#H1{
+    width: 95%;
+}
+#bdy{
+    font-size: large;
+}
+
+#mp{
+    position: relative;
+}
+
+#mp1{
+    position: absolute;
+}
+
+@media scrren and (max-width:600px) and (min-width:400px){
+    
+}
+
+
