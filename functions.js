@@ -45,3 +45,12 @@ function sortEmployer(employees) {
 
 
 // Write a function that accepts an array of numbers and uses the forEach() method to console.log each number multiplied by 2.
+
+function multiply(numbers) {
+  number.forEach(function(number) {
+     console.log(number * 2);
+  });
+ }
+
+ const numbersArray = [8, 7, 2, 4, 5];
+   multiply(numbers);
