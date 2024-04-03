@@ -1,13 +1,6 @@
 // Given an array of strings, use a function to reverse all the elements in the string in ascending order and the specific elements in descending order
 
-// function reverse(){
-// let name = ['Hua','Dira','Jean']
-// // let secondname = name.sort() 
-// console.log(name.sort());
-// console.log(name.reverse());
-// };
 
-// reverse()
 
 function reverseStrings(arr){
 
