@@ -23,9 +23,8 @@ reverseStrings(["Uganda","Tanzania","Malawi","Burundi","Burunfdi"]);
 
 
 
-  // function checkElements() {
-  //  let arr = []
-  // arr.forEach(element => {
+  // function checkElements(arr) {
+  //  arr.forEach(element => {
   //  if (element > 0) {
   //  console.log("positive");
   // } else if (element < 0) {
@@ -39,6 +38,7 @@ reverseStrings(["Uganda","Tanzania","Malawi","Burundi","Burunfdi"]);
   // checkElements(1,2,3,4)
 
   function checkElement(array){
+
     array.forEach(element => {
       if (element > 0) {
         console.log(`${element} is positive`);
@@ -49,6 +49,9 @@ reverseStrings(["Uganda","Tanzania","Malawi","Burundi","Burunfdi"]);
       }
     });
   }
+
+  const numbers = [1,2,3,4];
+  checkElement(numbers);
 
 
 // Given an array of objects, where each object represents an employee with an id, name, and salary property, write a function that returns a new array of employee objects sorted by their salary in ascending order.
@@ -94,4 +97,4 @@ console.log(numbers);
   }
 
   const sort = [1,2,3,4,5];
-  numbersArray(sort);
+  transformArray(sort);
